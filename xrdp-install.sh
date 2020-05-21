@@ -1,5 +1,4 @@
 #!/bin/bash
-sleep 30
 yum install epel-release -y
 yum update -y && yum upgrade -y
 yum group install -y "Server with GUI"
